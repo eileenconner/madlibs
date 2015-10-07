@@ -1,0 +1,22 @@
+
+h1 {
+    font-family: Courier;
+    color: red;
+    background-color: blue;
+    text-align: center;
+}
+
+p {
+    font-family: sans-serif;
+}
+
+h3 {
+    font-family: Courier;
+    color: green;
+    border: 2px solid black;
+}
+
+form {
+    font-size: 90%;
+    font-style: oblique;
+}
