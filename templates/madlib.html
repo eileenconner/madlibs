@@ -4,6 +4,13 @@
   <title>Madlibs game!</title>
 </head>
 <body>
-There once was a {{ color }} {{ noun }} sitting in the Hackbright Lab. When {{ person }} went to pick it up, it burst into flames in a totally {{ adjective }} way.
+There once was a {{ color }} {{ noun }} sitting in the Hackbright Lab. When {{ person }} went to pick it up, it burst into flames in a totally {{ adjective }} way. 
+
+<ul>
+{% for animal in animal_choices %}
+    <li>{{animal}} is great!
+{% endfor %}
+</ul>
+
 </body>
 </html>
